@@ -15,22 +15,22 @@ We used different things like:-
 
 1. Data Preprocessing:
 
-  The project names and technologies are concatenated to create a corpus of project descriptions.
+-  The project names and technologies are concatenated to create a corpus of project descriptions.
 
 2.TF-IDF Vectorization:
 
-  The corpus is converted into numerical vectors using TF-IDF (Term Frequency-Inverse Document Frequency) to represent the importance of terms in each project description.
+  - The corpus is converted into numerical vectors using TF-IDF (Term Frequency-Inverse Document Frequency) to represent the importance of terms in each project description.
 
 3.Clustering:
 
-  The DBSCAN algorithm is used to cluster the projects based on their descriptions. Projects within the same cluster are considered related.
+  - The DBSCAN algorithm is used to cluster the projects based on their descriptions. Projects within the same cluster are considered related.
 
 4.Project Recommendation:
 
-  A user inputs their current project description.
+  - A user inputs their current project description.
 
-  The system calculates the cosine similarity between the user's input and all projects in the dataset.
+  - The system calculates the cosine similarity between the user's input and all projects in the dataset.
   
-  It finds the most similar project and recommends other projects from the same cluster, sorted by their similarity score.
+  - It finds the most similar project and recommends other projects from the same cluster, sorted by their similarity score.
 
    
